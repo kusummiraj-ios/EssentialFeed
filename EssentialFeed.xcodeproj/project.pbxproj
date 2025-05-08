@@ -11,6 +11,8 @@
 		B9F50CF22DCA86CA0025ECDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F50CF12DCA86CA0025ECDB /* ContentView.swift */; };
 		B9F50CF42DCA86CE0025ECDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F50CF32DCA86CE0025ECDB /* Assets.xcassets */; };
 		B9F50CF72DCA86CE0025ECDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F50CF62DCA86CE0025ECDB /* Preview Assets.xcassets */; };
+		B9F50CFE2DCA87020025ECDB /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F50CFD2DCA87020025ECDB /* FeedItem.swift */; };
+		B9F50D002DCA87640025ECDB /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F50CFF2DCA87640025ECDB /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B9F50CF12DCA86CA0025ECDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9F50CF32DCA86CE0025ECDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9F50CF62DCA86CE0025ECDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9F50CFD2DCA87020025ECDB /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		B9F50CFF2DCA87640025ECDB /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				B9F50CF12DCA86CA0025ECDB /* ContentView.swift */,
 				B9F50CF32DCA86CE0025ECDB /* Assets.xcassets */,
 				B9F50CF52DCA86CE0025ECDB /* Preview Content */,
+				B9F50CFD2DCA87020025ECDB /* FeedItem.swift */,
+				B9F50CFF2DCA87640025ECDB /* FeedLoader.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				B9F50CF22DCA86CA0025ECDB /* ContentView.swift in Sources */,
 				B9F50CF02DCA86CA0025ECDB /* EssentialFeedApp.swift in Sources */,
+				B9F50D002DCA87640025ECDB /* FeedLoader.swift in Sources */,
+				B9F50CFE2DCA87020025ECDB /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
