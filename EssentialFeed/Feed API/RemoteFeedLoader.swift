@@ -16,7 +16,7 @@ public protocol HTTPClient {
     func get(from url: URL, completion: @escaping (HTTPClientResult) -> Void)
 }
 
-public final class RemoteLoadFeeder {
+public final class RemoteFeedLoader {
     private let client: HTTPClient
     private let url: URL
     
