@@ -18,6 +18,7 @@
 		B9F50D132DCD1CA10025ECDB /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F50D122DCD1CA10025ECDB /* RemoteFeedLoader.swift */; };
 		B9F50D162DD3E9600025ECDB /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F50D152DD3E9600025ECDB /* HTTPClient.swift */; };
 		B9F50D182DD3E9E90025ECDB /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F50D172DD3E9E90025ECDB /* FeedItemsMapper.swift */; };
+		B9F50D1B2DE762850025ECDB /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F50D1A2DE762850025ECDB /* URLSessionHTTPClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B9F50D122DCD1CA10025ECDB /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		B9F50D152DD3E9600025ECDB /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		B9F50D172DD3E9E90025ECDB /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
+		B9F50D1A2DE762850025ECDB /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				B9F50D0F2DCCFDC90025ECDB /* RemoteFeedLoaderTests.swift */,
+				B9F50D1A2DE762850025ECDB /* URLSessionHTTPClientTests.swift */,
 			);
 			path = FeedAPI;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9F50D102DCCFDC90025ECDB /* RemoteFeedLoaderTests.swift in Sources */,
+				B9F50D1B2DE762850025ECDB /* URLSessionHTTPClientTests.swift in Sources */,
 				B9F50D092DCCFA940025ECDB /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
