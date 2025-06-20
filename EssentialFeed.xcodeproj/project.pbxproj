@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9C018B52E0604BC001AA4D5 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C018B42E0604BC001AA4D5 /* XCTestCase+MemoryLeakTracking.swift */; };
 		B9F50CF02DCA86CA0025ECDB /* EssentialFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F50CEF2DCA86CA0025ECDB /* EssentialFeedApp.swift */; };
 		B9F50CF22DCA86CA0025ECDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F50CF12DCA86CA0025ECDB /* ContentView.swift */; };
 		B9F50CF42DCA86CE0025ECDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9F50CF32DCA86CE0025ECDB /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9C018B42E0604BC001AA4D5 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		B9F50CEC2DCA86CA0025ECDB /* EssentialFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F50CEF2DCA86CA0025ECDB /* EssentialFeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedApp.swift; sourceTree = "<group>"; };
 		B9F50CF12DCA86CA0025ECDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9C018B32E06048C001AA4D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B9C018B42E0604BC001AA4D5 /* XCTestCase+MemoryLeakTracking.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		B9F50CE32DCA86CA0025ECDB = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +146,7 @@
 		B9F50D192DD5524E0025ECDB /* FeedAPI */ = {
 			isa = PBXGroup;
 			children = (
+				B9C018B32E06048C001AA4D5 /* Helpers */,
 				B9F50D0F2DCCFDC90025ECDB /* RemoteFeedLoaderTests.swift */,
 				B9F50D1A2DE762850025ECDB /* URLSessionHTTPClientTests.swift */,
 			);
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9F50D102DCCFDC90025ECDB /* RemoteFeedLoaderTests.swift in Sources */,
+				B9C018B52E0604BC001AA4D5 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				B9F50D1B2DE762850025ECDB /* URLSessionHTTPClientTests.swift in Sources */,
 				B9F50D092DCCFA940025ECDB /* EssentialFeedTests.swift in Sources */,
 			);
