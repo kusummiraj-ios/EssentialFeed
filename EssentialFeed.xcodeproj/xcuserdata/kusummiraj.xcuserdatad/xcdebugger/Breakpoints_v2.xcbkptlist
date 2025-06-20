@@ -3,4 +3,54 @@
    uuid = "B9BF7D94-5B5B-475A-8FDC-5690006ADC52"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21FCC6D0-CD12-4B84-81F6-76DA2CE028A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EssentialFeedTests/FeedAPI/URLSessionHTTPClientTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "startLoading()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "21FCC6D0-CD12-4B84-81F6-76DA2CE028A5 - 6e95d9e5f5d9fd86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeedTests.URLSessionHTTPClientTests.URLProtocolStub.startLoading() -&gt; ()"
+                  moduleName = "EssentialFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kusummiraj/Documents/iOS/LeadEssentialsProgram/EssentialFeed/EssentialFeedTests/FeedAPI/URLSessionHTTPClientTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "21FCC6D0-CD12-4B84-81F6-76DA2CE028A5 - 6e95d9e5f5d9fd86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EssentialFeedTests.URLSessionHTTPClientTests.URLProtocolStub.startLoading() -&gt; ()"
+                  moduleName = "EssentialFeedTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kusummiraj/Documents/iOS/LeadEssentialsProgram/EssentialFeed/EssentialFeedTests/FeedAPI/URLSessionHTTPClientTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "787">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
